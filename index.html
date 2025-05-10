@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Spead Operator</title>
+</head>
+<body>
+    <h1>This page is for practicing Spread operator, to create shallow copies.</h1>
+    <h2>Shallow Copy</h2>
+    <p>The <b>spread operator</b> only creates a shallow copy, meaning it only copies the top-level properties.</p>
+    <h2>Deep Copy</h2>
+    <h3>1. JSON.parse(JSON.stringify(original))</h3>
+    <p><b>JSON.stringify(original)</b> - This converts the object into a string.</p>
+    <p><b>JSON.parse(...)</b> - This reads the string and builds a new object from it.</p>
+
+    <h3>2. Lodash {_.cloneDeep()}</h3>
+    <p>Lodash is a JavaScript helper library — it gives you many easy-to-use tools for working with arrays, objects, and other data.</p>
+    <script src="index.js"></script>
+</body>
+</html>
